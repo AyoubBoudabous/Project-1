@@ -24,6 +24,8 @@ nav div {
 nav div p {
   margin-right: 1em;
 }
+
+/* first container */
 section {
   display: flex;
   justify-content: space-around;
@@ -37,7 +39,7 @@ section div {
 }
 section div h1 {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 850;
   color: #f9faf8;
   margin-bottom: 0;
 }
@@ -52,4 +54,28 @@ section div button {
   height: 4vh;
   border-radius: 5px;
   border: none;
+}
+
+/*second container*/
+.main2ndcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.main2ndcontainer .parent {
+  width: 24vh;
+  margin-right: 2vh;
+}
+.secondcontainer h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 850;
+  color: #1f2937;
+}
+
+.secondcontainer .child {
+  border: solid blue;
+  border-radius: 5px;
+  width: 21vh;
+  height: 21vh;
 }
