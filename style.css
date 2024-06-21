@@ -7,15 +7,49 @@ body {
 }
 .maincontainer {
   background-color: #1f2937;
+  height: 64vh;
 }
 nav {
   display: flex;
   justify-content: space-around;
   color: white;
 }
+nav h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
 nav div {
   display: flex;
 }
 nav div p {
   margin-right: 1em;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  width: 40%;
+  margin-right: 16vh;
+}
+section div {
+  margin-left: 30.5vh;
+}
+section div h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+section div p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+section div button {
+  background-color: #3882f6;
+  color: white;
+  width: 13vh;
+  height: 4vh;
+  border-radius: 5px;
+  border: none;
 }
